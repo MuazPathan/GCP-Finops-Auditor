@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# GCP Credentials & Secrets (NEVER COMMIT THESE)
+*.json
+!requirements.txt
+.env
+*.pem
+*.key
+
+# Output artifacts
+hygiene_audit_results.json
